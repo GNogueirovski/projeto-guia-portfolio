@@ -6,31 +6,33 @@
 		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="Generation Brasil">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
 		<title>Meu Perfil</title>
 	</head>
 	<body>
 		<!-- Cabeçalho da Página (header) -->
 		<header>
-			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
-				<!-- Titulo do Cabeçalho -->
+			<div id="header_content" class="flex">
 				<div id="titulo">
-					<!-- Seu nome -->
-					<h1>Generation Brasil</h1>
+					<h1>Gabriel Nogueira</h1>
 				</div>
-
-				<!-- Conteudo do Menu da Página (header) -->
 				<div id="menu">
-					<!-- Menu da Página -->
 					<nav>
-						<!-- Marcadores não ordenados + links -->
-						<ul id="menu">
+						<ul>
 							<li>
 								<a href="index.html"> Home </a>
 							</li>
 							<li>
 								<a href="contato.html"> Contato </a>
 							</li>
+	
 						</ul>
 					</nav>
 				</div>
@@ -41,7 +43,7 @@
 		<main>
 
 			 <!-- Seção Formulário de Contato e Redes Sociais -->
-             <section id="contact">
+             <section id="contact" class="flex">
 
                 <!-- Seção do Formulário -->
                 <form action="#" method="submit" id="formulario">
@@ -64,7 +66,7 @@
                 </form>
 
                 <!-- Seção do Google Maps -->
-                <article id="mapa">
+                <article id="mapa" class="flex_start">
                     <div id="endereco">
                         <p>Av. Paulista, 100</p>
                         <p>São Paulo - SP</p>
@@ -85,27 +87,21 @@
 		</main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
-
-			<!-- Seção de Contato - Redes Sociais -->
-            <section id="redes_sociais">
-
-                    <a href="">
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/github.svg" alt="Github" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/instagram.svg" alt="Instagram" />
-                    </a>
-
-            </section>
-
+		<footer class="flex">
 			<h3>
-                Feito por Gabriel Nogueira - 2025
+				Feito por Gabriel Nogueira - 2025
 			</h3>
-
+			<section id="redes_sociais">
+				<a href="">
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+				</a>
+				<a href="">
+					<img  src="assets/img/github.svg" alt="GitHub" class="social_icon"/>
+				</a>
+				<a href="">
+					<img  src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+				</a>
+			</section>
 		</footer>
 	</body>
 </html>
