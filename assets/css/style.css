@@ -6,7 +6,7 @@
     text-decoration:none;
     outline:none;
     font-weight:400;
-    font-family:sans-serif;
+    font-family:Roboto;
 }
 
 :root{
@@ -14,6 +14,9 @@
     --lightblue: #b5e2fa;
 
     --black-800: #171717;
+    --orange:#f4a261;
+    --lightorange:#fbc687;
+
 
     --gray-200: #cccccc;
     --white: #F9F9F9;
@@ -36,7 +39,8 @@ header{background: var(--green);
 
 footer {
     flex-direction:column;
-    margin-top:5rem;
+    margin-top:10rem;
+    weight:20vh;
     font-weight:bold;
     padding:3rem;
     text-align:center;
@@ -48,10 +52,10 @@ footer {
 
 h1{
     color: var(--white);
-    font-family: "Bangers", serif;
+    font-family: "Iceland", serif;
     font-size: 3rem;
     font-weight: 700;
-    -webkit-text-stroke-color:var(--lightblue);
+    -webkit-text-stroke-color:var(--black);
     -webkit-text-stroke-width:0.5px;
 
 }
@@ -67,8 +71,8 @@ h2{
 
 h3{
     padding: 0.5rem;
-    color: var(--heavyblue);
-    font-family:"Roboto";
+    color: var(--white);
+    font-family:"Iceland";
     font-size: 1.25rem;
     font-weight: 700;
     text-align: center;
@@ -112,14 +116,14 @@ p{
 
 #menu li a {
     text-decoration:none;
-    color: var(--lightblue);
+    color: var(--white);
     font-size:1.25rem;
 }
 
 #menu li a:hover{
-    -webkit-text-stroke-color:var(--lightblue);
-    -webkit-text-stroke-width:0.5px;
-    color: var(--heavyblue);
+    -webkit-text-stroke-color:var(--orange);
+    -webkit-text-stroke-width:1px;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -146,6 +150,7 @@ p{
     flex-direction:column;
     margin:1.5rem auto;
     width:90%;
+    
 }
 
 #redes_sociais {
@@ -159,11 +164,11 @@ p{
     border-color:var(--lightblue);
     width: 4rem;
     height: 4rem;
-    filter: brightness(0) saturate(100%) invert(93%) sepia(94%) saturate(5104%) hue-rotate(171deg) brightness(101%) contrast(96%);
+    filter: brightness(0) saturate(100%) invert(49%) sepia(98%) saturate(4392%) hue-rotate(160deg) brightness(105%) contrast(88%);
 }
 
 .social_icon:hover {  
-    filter: brightness(0) saturate(100%) invert(45%) sepia(59%) saturate(1123%) hue-rotate(146deg) brightness(95%) contrast(88%);
+    filter: brightness(0) saturate(100%) invert(95%) sepia(33%) saturate(7497%) hue-rotate(302deg) brightness(106%) contrast(98%);
 }
 
 #genfoto{
@@ -216,17 +221,17 @@ form span{
 form button {
     text-align: center;
     padding: 0.75rem 2rem;
-    background: var(--lightblue);
+    background: var(--heavyblue);
     border: 1px solid var(--heavyblue);
     color: var(--white);
-    border-color: var(--heavyblue);
+    border-color: var(--white);
     border-radius: 0.75rem;
     font-weight: 700;
     font-size: 1rem;
 }
 
 form button:hover {
-    background: var(--heavyblue);
+    background: var(--orange);
 }
 #mapa{
     width: 480px;
